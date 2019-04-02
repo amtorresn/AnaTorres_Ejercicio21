@@ -13,7 +13,7 @@ int main(){
     r = drand48()*2*pi;
     x = x + sin(r);
     y = y + cos(r);
-    std::cout << "Iteración: " << i << " x: " << x << " y: " << y << std::endl;
+    std::cout << x << " " << y << std::endl;
   }
   
   return 0;
